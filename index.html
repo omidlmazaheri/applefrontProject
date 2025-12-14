@@ -16,15 +16,21 @@
             width: 100%;
         }
 
-        table>thead>th#ranking {
+        table th {
+            padding: 5px;
+        }
+        table tr th, table tr td{
+            border-bottom: 1px solid #999;
+        }
+        table tr table>thead>th#ranking {
             width: 5%;
         }
 
-        table>thead>th#musicname {
+        table>thead th#musicname {
             width: 65%;
         }
 
-        table>thead>th#artist {
+        table>thead th#artist {
             width: 30%;
         }
 
@@ -48,9 +54,12 @@
         <section id="topfive">
             <table>
                 <thead>
-                    <th id="ranking">Ranking</th>
-                    <th id="musicname">Music Name</th>
-                    <th id="artist">Artist</th>
+                    <tr>
+                        <th id="ranking">Ranking</th>
+                        <th id="musicname">Music Name</th>
+                        <th id="artist">Artist</th>
+                    </tr>
+
                 </thead>
                 <tbody>
                     <tr>
