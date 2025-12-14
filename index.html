@@ -1,11 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Top 5 Music</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        table>thead>th#ranking {
+            width: 5%;
+        }
+
+        table>thead>th#musicname {
+            width: 65%;
+        }
+
+        table>thead>th#artist {
+            width: 30%;
+        }
+
+
+        #topfive {
+            width: 50%;
+            margin: 5px auto;
+        }
+
+        main>h1,
+        main>h2 {
+            text-align: center;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <main>
+        <h1>Top 5 London Music</h1>
+        <h2>December 2024</h2>
+        <section id="topfive">
+            <table>
+                <thead>
+                    <th id="ranking">Ranking</th>
+                    <th id="musicname">Music Name</th>
+                    <th id="artist">Artist</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>#1</td>
+                        <td>LAST CHRISTMAS</td>
+                        <td>WHAM</td>
+                    </tr>
+                    <tr>
+                        <td>#2</td>
+                        <td>WHERE IS MY HUSBAND</td>
+                        <td>RAYE</td>
+                    </tr>
+                    <tr>
+                        <td>#3</td>
+                        <td>ROCKIN' AROUND THE CHRISTMAS TREE</td>
+                        <td>MARIAH CAREY</td>
+                    </tr>
+                    <tr>
+                        <td>#4</td>
+                        <td>ALL I WANT FOR CHRISTMAS IS YOU</td>
+                        <td>BRENDA LEE</td>
+                    </tr>
+                    <tr>
+                        <td>#5</td>
+                        <td>ROCKIN' AROUND THE CHRISTMAS TREE</td>
+                        <td>KELLY CLARKSON</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </main>
 </body>
+
 </html>
